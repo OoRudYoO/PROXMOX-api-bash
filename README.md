@@ -1,7 +1,7 @@
 
 This is simple bash script to:
 
-    - create authorization token
+    - create authorization cokie/token
     - create container
     - perform start/stop/delete operations
 
