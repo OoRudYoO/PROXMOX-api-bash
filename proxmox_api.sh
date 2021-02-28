@@ -32,7 +32,7 @@ case $1 in
 
     delete) curl --silent --insecure  --cookie "$(<cookie)" --header "$(<token)" -X DELETE https://$PROXMOX_NODE_IP:8006/api2/json/nodes/$PROXMOX_NODE_NAME/lxc/$2;echo "  done." ;;
 
-    *) echo ""; echo " usage:  container start|stop|create|delete <vmid> ";echo ""; ;;
+    *) echo ""; echo " usage:  start|stop|create|delete <vmid> ";echo ""; ;;
 
 esac
 
